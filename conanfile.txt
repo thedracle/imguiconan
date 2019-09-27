@@ -1,0 +1,16 @@
+[requires]
+boost/1.65.1@conan/stable
+imgui/1.69@bincrafters/stable
+glfw/3.3@bincrafters/stable
+glew/2.1.0@bincrafters/stable
+
+[options]
+boost:shared=False
+
+[generators]
+make
+
+[imports]
+lib, *.a -> ./lib/
+lib, libssl.a -> ./lib/
+lib, libcrypto.a -> ./lib/

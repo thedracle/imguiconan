@@ -1,0 +1,13 @@
+.depend
+compile_commands.json
+bin/testimgui
+conan_imports_manifest.txt
+conanbuildinfo.mak
+conanbuildinfo.txt
+conaninfo.txt
+graph_info.json
+imgui.ini
+lib/**
+make.txt
+**/*.o
+
