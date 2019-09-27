@@ -9,7 +9,6 @@ getosver
 if [[ "$(uname -s)" == "Linux" ]]; then
     if ! which conan &> /dev/null; then
         if pip install conan; then
-            brew link conan
             echo "Conan installed."
         else
             echo "Unable to install conan."
